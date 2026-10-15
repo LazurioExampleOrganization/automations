@@ -1,13 +1,14 @@
-# AgentMint Automations
+# Lazurio Example Organization automations
 
-Modul pro agentní workflow, integrace a případný runtime.
+A module for agent workflows, integrations and, where needed, a runtime.
 
-Automatizace vzniká až po ručním ověření mechanismu. První verze každého
-výdělečného mechanismu má být auditovatelná, malá a s jasným approval modelem.
+Automation comes only after a mechanism has been verified by hand. The first
+version of every revenue-generating mechanism should be auditable, small and
+have a clear approval model.
 
-## Hranice
+## Boundaries
 
-- žádné secrets v Gitu
-- žádný spam, fake engagement, phishing ani ToS obcházení
-- externí zápisy a outreach jen s lidským schválením
-- run log a rollback pro automatické akce
+- no secrets in Git
+- no spam, fake engagement, phishing or Terms of Service circumvention
+- external writes and outreach only with human approval
+- a run log and rollback for automated actions

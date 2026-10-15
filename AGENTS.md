@@ -1,8 +1,8 @@
-# Automations — pravidla pro agenta
+# Automations: rules for the agent
 
-Tento modul vlastní automatizace a runtime.
+This module owns automations and the runtime.
 
-- Neautomatizuj neověřený mechanismus jako default.
-- Každá externí akce musí mít approval hranici nebo explicitní schválení.
-- Credentials drž mimo Git a mimo plaintext.
-- U každého workflow dokumentuj vstupy, výstupy, failure modes a audit log.
+- Do not automate an unverified mechanism by default.
+- Every external action must have an approval boundary or explicit approval.
+- Keep credentials out of Git and out of plaintext.
+- For every workflow, document the inputs, outputs, failure modes and audit log.
